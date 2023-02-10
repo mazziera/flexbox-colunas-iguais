@@ -1,0 +1,21 @@
+.flex{
+    display: flex; /*o container pai se tornou flexivel */
+    width: 960px;
+    max-width: 100%; 
+}
+
+.coluna{
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+    /* transformando o container filho flexível e com direção coluna, para alinhar os links na mesma altura */
+}
+
+.coluna img{
+    max-width: 100%;
+}
+
+.link{
+    align-items: flex-start; /*alinhando o link para a posição padrão(esquerda e topo) */
+    margin-top: auto; /*dando uma margem maxima no topo, jogando o elemento para baixo */
+}
